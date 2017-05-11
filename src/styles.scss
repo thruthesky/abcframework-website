@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* VARIABLES */
+$gutter: 8px;
+$header-height: 60px;
+/* BASE */
+
+/* LAYOUT */
+nav.navbar {
+}
+
+body {
+    margin: $header-height;
+}

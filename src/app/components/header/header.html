@@ -1,0 +1,43 @@
+<nav class="navbar navbar-toggleable-md fixed-top bg-slategrey white">
+    <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" aria-label="Toggle navigation"
+        (click)=" showMenu = !showMenu ">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+    <div class="logo" style="width: 140px;">
+
+        <div class="fa-stack fa-lg float-left">
+            <i class="fa fa-circle fa-stack-2x white" aria-hidden="true"></i>
+            <img class="fa fa-stack-1x" style="padding: 7px 0 0 7px; width:34px; height: 34px; border-radius: 50%;" src="assets/img/logo-icon.png">
+        </div>
+        <div class="fs-150 pl-5" style="padding-top: 2px;">ABC</div>
+    </div>
+
+
+    <div class="navbar-collapse collapse" [class.active]="showMenu">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item pr-3">
+                Blogs
+            </li>
+            <li class="nav-item pr-3">
+                Docs
+            </li>
+            <li class="nav-item pr-3">
+                Forums
+            </li>
+            <li class="nav-item pr-3">
+                Quick Start
+            </li>
+        </ul>
+        <div class="">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item pr-3">
+                Login
+            </li>
+            <li class="nav-item">
+                Register
+            </li>
+            </ul>
+        </div>
+    </div>
+</nav>
